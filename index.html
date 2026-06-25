@@ -8,126 +8,105 @@
 </head>
 <body>
 
-    <header>
-        <h1>Sawyer's Coding Portfolio</h1>
-        <p class="binary">01010011 01100001 01110111 01111001 01100101 01110010</p>
-    </header>
+<header>
+    <h1>Sawyer's Coding Portfolio</h1>
+    <p class="binary">01010011 01100001 01110111 01111001 01100101 01110010</p>
 
-    <section class="hero">
-        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" alt="Profile Picture">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="project.html">Featured Project</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h2>👋 About Me</h2>
+
+        <p>
+            Hi! My name is Sawyer. I am a student programmer learning Python
+            through Code For ME.
+        </p>
+
+        <p>
+            I enjoy solving problems, creating games, and learning how
+            technology works.
+        </p>
+    </div>
+</section>
+
+<section class="card">
+    <h2>🏆 Coding Journey</h2>
+
+    <div class="stats">
+
         <div>
-            <h2>About Me</h2>
-            <p>
-                Hi! My name is Sawyer. I am a student programmer learning Python
-                through Code For ME. I enjoy building games, solving problems,
-                and learning how computers work.
-            </p>
-        </div>
-    </section>
-
-    <section class="card">
-        <h2>🏆 My Coding Journey</h2>
-
-        <div class="stats">
-            <div>
-                <h3>2026</h3>
-                <p>Started Coding</p>
-            </div>
-
-            <div>
-                <h3>Python</h3>
-                <p>Primary Language</p>
-            </div>
-
-            <div>
-                <h3>Code For ME</h3>
-                <p>Graduate</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="card">
-    <h2>🎮 Project Sandbox</h2>
-
-    <div class="sandbox-container">
-
-        <div class="sandbox-info">
-
-            <h3>Terrifying Taiga Adventure</h3>
-
-            <p>
-                This project is an interactive text-based adventure game
-                created in Python.
-            </p>
-
-            <h4>What does this project teach?</h4>
-
-            <ul>
-                <li>Using variables</li>
-                <li>Taking user input</li>
-                <li>Making decisions with if statements</li>
-                <li>Building branching story paths</li>
-                <li>Creating immersive experiences</li>
-            </ul>
-
-            <h4>Fun Facts</h4>
-
-            <ul>
-                <li>5 major choices</li>
-                <li>Multiple story paths</li>
-                <li>Mysterious cabin ending</li>
-                <li>Hidden treasure possibility</li>
-            </ul>
-
-            <button onclick="playGame()">
-                ▶ Play Demo
-            </button>
-
+            <h3>2026</h3>
+            <p>Started Coding</p>
         </div>
 
-        <div class="terminal">
+        <div>
+            <h3>Python</h3>
+            <p>Favorite Language</p>
+        </div>
 
-            <div class="terminal-header">
-                Sawyer's Adventure Terminal
-            </div>
-
-            <div id="terminal-output">
-                Press Play to begin your adventure...
-            </div>
-
+        <div>
+            <h3>Code For ME</h3>
+            <p>Student Developer</p>
         </div>
 
     </div>
 </section>
-    <section class="card">
-        <h2>🎓 Code For ME</h2>
 
-        <p>
-            Code For ME is a program that teaches students coding skills through
-            hands-on projects and real-world problem solving.
-        </p>
+<section class="card">
 
-        <p>
-            Sawyer successfully completed the Code For ME Python Program.
-        </p>
-    </section>
+    <h2>💻 Skills</h2>
 
-    <footer>
-        <p>Built by Sawyer • Code For ME • 2026</p>
-    </footer>
+    <div class="skills">
+        <span>Python</span>
+        <span>Variables</span>
+        <span>Input</span>
+        <span>Conditionals</span>
+        <span>Problem Solving</span>
+        <span>Debugging</span>
+    </div>
 
-<script>
-function showProject() {
-    let box = document.getElementById("projectBox");
+</section>
 
-    if(box.style.display === "block"){
-        box.style.display = "none";
-    }
-    else{
-        box.style.display = "block";
-    }
-}
-</script>
+<section class="card">
+
+    <h2>🎓 Code For ME</h2>
+
+    <p>
+        Code For ME teaches students coding through hands-on projects
+        and creative problem solving.
+    </p>
+
+    <p>
+        Sawyer successfully completed the beginner Python curriculum.
+    </p>
+
+</section>
+
+<section class="card">
+
+    <h2>🚀 Featured Project</h2>
+
+    <h3>Terrifying Taiga Adventure</h3>
+
+    <p>
+        An interactive text adventure where players make choices,
+        explore a mysterious wilderness, and uncover secrets.
+    </p>
+
+    <a class="project-btn" href="project.html">
+        View Project →
+    </a>
+
+</section>
+
+<footer>
+    Built by Sawyer • Code For ME • 2026
+</footer>
 
 </body>
 </html>
